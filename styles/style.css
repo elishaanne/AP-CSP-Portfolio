@@ -1,9 +1,30 @@
-h1 {
-  color: blue;
-  background-color: yellow;
-  border: 1px solid black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightslategrey;
 }
 
-p {
-  color: red;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:slategrey;
+}
+
+p.a {
+    font-style:italic;
+}
+h1.a {
+    font-style:italic;
 }
